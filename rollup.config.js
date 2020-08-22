@@ -1,7 +1,14 @@
 import pkg from './package.json';
 
 export default {
-  external: ['errs', 'jsonwebtoken', 'pino'],
+  external: [
+    'errs',
+    'jsonwebtoken',
+    'pino',
+    'cookie',
+    'node-jose',
+    'node-fetch',
+  ],
   // CommonJS (for Node) and ES module (for bundlers) build.
   // (We could have three entries in the configuration array
   // instead of two, but it's quicker to generate multiple
