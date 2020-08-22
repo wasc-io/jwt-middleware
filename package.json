@@ -20,6 +20,11 @@
     "README.md",
     "docs"
   ],
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
   "dependencies": {
     "cookie": "^0.4.0",
     "errs": "^0.3.2",
