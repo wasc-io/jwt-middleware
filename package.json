@@ -1,0 +1,37 @@
+{
+  "name": "@wasc/jwt-middleware",
+  "version": "1.0.0",
+  "description": "Decodes and verifies the current an attached JWT Token and provides the result to the request context",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "author": "Nicolai Schmid <nicolai@schmid.uno>",
+  "license": "UNLICENSED",
+  "private": false,
+  "scripts": {
+    "bump": "standard-version",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "format": "wasc-tools format",
+    "lint": "wasc-tools lint",
+    "count": "wasc-tools count"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "docs"
+  ],
+  "dependencies": {
+    "cookie": "^0.4.0",
+    "errs": "^0.3.2",
+    "jsonwebtoken": "^8.2.0",
+    "node-fetch": "^2.6.0",
+    "node-jose": "^1.1.3",
+    "pino": "^6.5.1"
+  },
+  "devDependencies": {
+    "@wasc/tools": "^5.11.1",
+    "rollup": "^2.26.5",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "standard-version": "^9.0.0"
+  }
+}
