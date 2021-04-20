@@ -13,6 +13,7 @@ const pino = getPino();
  * @param {String} secret The JWT verification secret
  * @param {String|Object} jwk For JWK based authentication an endpoint or a direct object
  * @param {String} extractName The name of the header or cookie to extract the token from (default: authorization)
+ * @param {Boolean} ignoreAdvancedAuthSchemes Will ignore any header which specifies the token type (eg: Bearer, Basic, ...)
  * @param {Object}
  * @param {Function} error The error logging function
  * @returns {Promise[Function]} The actual middleware function
@@ -53,6 +54,9 @@ export default async function (options = {}) {
       if (cookies) {
         token = cookie.parse(cookies)[extractName];
       }
+    }
+    if (options.ignoreAdvancedAuthSchemes) {
+      if (token.includes(' ')) return next();
     }
 
     try {
