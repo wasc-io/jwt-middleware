@@ -56,7 +56,7 @@ export default async function (options = {}) {
       }
     }
     if (options.ignoreAdvancedAuthSchemes) {
-      if (token.includes(' ')) return next();
+      if (token && token.includes(' ')) return next();
     }
 
     try {
