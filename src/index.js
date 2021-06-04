@@ -66,6 +66,7 @@ export default async function (options = {}) {
 
       request.scope = decoded.scope;
       request.user = decoded.user;
+      request.decodedToken = decoded;
 
       request.auth = {
         isAuthenticated: true,
