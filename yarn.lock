@@ -1473,10 +1473,10 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@wasc/tools@5.13.0":
-  version "5.13.0"
-  resolved "https://registry.yarnpkg.com/@wasc/tools/-/tools-5.13.0.tgz#3ac31bb0f204a75d436054693ca3fe80d3949c32"
-  integrity sha512-lmJMBfuzpy9ekzH6h0uAryVKa+ONa5UdYFqu7sSAJMP668uKkd3Ph/khGPHCXCRTNpXmG5hyrqnOT7wI5Hq0Jw==
+"@wasc/tools@5.14.0":
+  version "5.14.0"
+  resolved "https://registry.yarnpkg.com/@wasc/tools/-/tools-5.14.0.tgz#87ef88a7ee7dd6243dde3c3a868fb7029b126113"
+  integrity sha512-KvwqMYnodxjbN0uYY6OzA2+asV14byrb20h4D7CH6vHf8N+BRKKuayc6Aq7Bi70RyDWd2hcnWJRIRlsGklbTzg==
   dependencies:
     "@babel/core" "7.13.15"
     "@babel/plugin-proposal-object-rest-spread" "7.13.8"
@@ -1496,6 +1496,7 @@
     eslint-config-prettier "6.15.0"
     eslint-plugin-css-modules "2.11.0"
     eslint-plugin-eslint-comments "3.2.0"
+    eslint-plugin-fail-comment "1.0.0"
     eslint-plugin-import "2.22.1"
     eslint-plugin-json "2.1.2"
     eslint-plugin-jsx-a11y "6.4.1"
@@ -3778,6 +3779,11 @@ eslint-plugin-eslint-comments@3.2.0:
   dependencies:
     escape-string-regexp "^1.0.5"
     ignore "^5.0.5"
+
+eslint-plugin-fail-comment@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-fail-comment/-/eslint-plugin-fail-comment-1.0.0.tgz#2c5f819ae4baaa3613b1794ef0e402ed80c0988f"
+  integrity sha512-b8e6nbqeu9eJ5b9oVCr/TOu9sO9lLDdzk+cTV8+QKF9GdfRL0hyk3pAkyGVAqe+L8w2oTmfcyVknnMG5ffVuqQ==
 
 eslint-plugin-import@2.22.1:
   version "2.22.1"
