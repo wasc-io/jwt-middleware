@@ -37,6 +37,6 @@
     "@wasc/tools": "5.13.0",
     "rollup": "2.38.5",
     "rollup-plugin-commonjs": "10.1.0",
-    "standard-version": "9.1.0"
+    "standard-version": "9.3.2"
   }
 }
