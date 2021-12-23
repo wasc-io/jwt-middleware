@@ -1,17 +1,17 @@
 # extract-authentication-middleware
 
-# [![extract-authentication-middleware](docs/carbon.png)](https://git.nicolaischmid.de/wasc-npm/extract-authentication-middleware)
+# [![extract-authentication-middleware](docs/carbon.png)](https://github.com/wasc-io/jwt-middleware)
 
 ## Overview
 
-[extract-authentication-middleware](https://git.nicolaischmid.de/wasc-npm/extract-authentication-middleware) is an express middleware for getting the authorization header of a request and its embeded JWT Token and decoding its content.
+[extract-authentication-middleware](https://github.com/wasc-io/jwt-middleware) is an express middleware for getting the authorization header of a request and its embedded JWT Token and decoding its content.
 
 ## Usage
 
 Just like above:
 
 ```javascript
-import checkAuthentication from '@private/extract-authentication-middleware'
+import checkAuthentication from '@wasc/jwt-middleware'
 import express from 'express';
 
 const app = express();
@@ -78,3 +78,5 @@ If the authentication fails, because the token is faulty, not signing properly o
     message: 'BadRequest',
 }
 ```
+
+This was made by [Wasc](https://wasc.me)
