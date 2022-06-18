@@ -31,7 +31,7 @@
     "jsonwebtoken": "^8.2.0",
     "node-fetch": "^2.6.0",
     "node-jose": "^1.1.3",
-    "pino": "^7.0.0"
+    "pino": "^8.0.0"
   },
   "devDependencies": {
     "@wasc/tools": "5.13.0",
