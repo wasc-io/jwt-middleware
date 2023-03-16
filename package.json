@@ -28,7 +28,7 @@
   "dependencies": {
     "cookie": "^0.4.0",
     "errs": "^0.3.2",
-    "jsonwebtoken": "^8.2.0",
+    "jsonwebtoken": "^9.0.0",
     "node-fetch": "^2.6.0",
     "node-jose": "^1.1.3",
     "pino": "^7.0.0"
