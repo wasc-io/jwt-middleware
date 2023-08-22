@@ -34,7 +34,7 @@
     "pino": "^7.0.0"
   },
   "devDependencies": {
-    "@wasc/tools": "5.13.0",
+    "@wasc/tools": "5.15.5",
     "rollup": "2.38.5",
     "rollup-plugin-commonjs": "10.1.0",
     "standard-version": "9.1.0"
