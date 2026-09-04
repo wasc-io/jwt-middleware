@@ -3380,10 +3380,10 @@ error-ex@^1.2.0, error-ex@^1.3.1:
   dependencies:
     is-arrayish "^0.2.1"
 
-errs@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/errs/-/errs-0.3.2.tgz#798099b2dbd37ca2bc749e538a7c1307d0b50499"
-  integrity sha1-eYCZstvTfKK8dJ5TinwTB9C1BJk=
+errs@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/errs/-/errs-1.0.0.tgz#6e3bd1fda3bb96825c1e4c6aaec4a917bed14e96"
+  integrity sha512-bv8LOhoorYBHcsOuUyKOwZsIuUfpyb0TanHI13Dm7IRa1A4o+vHs1jcfc21Uy9tr5gwe7eLshMoAHVd6y/ydag==
 
 es-abstract@^1.19.0, es-abstract@^1.19.1:
   version "1.19.1"
